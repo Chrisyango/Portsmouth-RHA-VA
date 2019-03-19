@@ -234,7 +234,8 @@
 				<a href="./" class="btn">see all events</a>
 		</section><!-- /#events -->
 
-		<section id="news">
+		<section id="news" style="background:url('./_assets_/images/news-bg.jpg') center no-repeat;background-size:cover;">
+			<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover;"></div>
 			<div id="news-overlay"></div>
 			<div class="container">
 				<h2>recent news</h2>
