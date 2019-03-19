@@ -37,7 +37,7 @@
 </head>
 <body id="homepage">
 
-<header class="clearfix">
+<header>
 	<a href="#main" id="skip" tabindex="0">SKIP TO CONTENT</a>
 
 	<div class="container">
