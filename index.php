@@ -12,7 +12,6 @@
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300,800|Roboto:700">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
@@ -357,12 +356,6 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
-<script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 
 </body>
