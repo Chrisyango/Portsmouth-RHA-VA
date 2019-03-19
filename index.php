@@ -185,25 +185,25 @@
 	<section id="quick-links">
 		<div class="container">
 			<div id="quick-links-wrapper" class="owl-carousel">
-				<a href="./" class="quick-link">
+				<a href="./" class="quick-link" style="background:url('./_assets_/images/quick-link1.jpg') center no-repeat;background-size:cover;">
 					<div class="quick-link-overlay"></div>
-					<i class="fa fa-laptop"></i>
-					online services
+					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link1.png') center no-repeat;background-size:cover;"></div>
+					<span>online services</span>
 				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
+				<a href="./" class="quick-link" style="background:url('./_assets_/images/quick-link2.jpg') center no-repeat;background-size:cover;">
 					<div class="quick-link-overlay"></div>
-					<i class="fa fa-credit-card"></i>
-					pay rent
+					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link2.png') center no-repeat;background-size:cover;"></div>
+					<span>pay rent</span>
 				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
+				<a href="./" class="quick-link" style="background:url('./_assets_/images/quick-link3.jpg') center no-repeat;background-size:cover;">
 					<div class="quick-link-overlay"></div>
-					<i class="fa fa-handshake"></i>
-					partner portal
+					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link3.png') center no-repeat;background-size:cover;"></div>
+					<span>partner portal</span>
 				</a><!-- /.quick-links -->
-				<a href="./" class="quick-link">
+				<a href="./" class="quick-link" style="background:url('./_assets_/images/quick-link4.jpg') center no-repeat;background-size:cover;">
 					<div class="quick-link-overlay"></div>
-					<i class="fa fa-users"></i>
-					employment opportunities
+					<div class="quick-link-img" style="background:url('./_assets_/images/quick-link4.png') center no-repeat;background-size:cover;"></div>
+					<span>employment opportunities</span>
 				</a><!-- /.quick-links -->
 			</div><!-- /#quick-links-wrapper.owl-carousel -->
 		</div><!-- /.container -->
