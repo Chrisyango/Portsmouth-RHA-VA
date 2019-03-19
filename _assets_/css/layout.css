@@ -247,7 +247,8 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 #we-are {padding: 81px 0 115px;}
 #we-are-info {position: relative; border-top: 3px solid #67202b; width: 53.7%; padding: 11px 39px 34px; box-shadow: 0px 1px 21px 0px rgba(0, 0, 0, 0.05); background-color: #fff; z-index: 10;}
 #we-are-info h2 {position: relative; font-family: 'Montserrat'; font-size: 32px; line-height: 42px; letter-spacing: 0.1em; font-weight: 800; text-transform: uppercase; color: #98a898; margin-bottom: 73px;}
-#we-are-info h2:after {content: ''; position: absolute; bottom: -40px; left: 1px; width: 70px; height: 10px; background-color: black;}
+#we-are-info h2:after {content: ''; position: absolute; bottom: -40px; left: 1px; width: 70px; height: 10px; background-image: -moz-linear-gradient( -35deg, rgb(92,92,92) 0%, rgb(17,17,17) 100%); background-image: -webkit-linear-gradient( -35deg, rgb(92,92,92) 0%, rgb(17,17,17) 100%); background-image: -ms-linear-gradient( -35deg, rgb(92,92,92) 0%, rgb(17,17,17) 100%);}
+
 #we-are-info p {font-size: 16px; line-height: 26px; color:#4b4b4b; margin: 0;}
 
 #we-are .img-container {position: absolute; top: 0; right: 0; width: 53.5%;}
@@ -268,13 +269,17 @@ a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate
 #news {position: relative; text-align: center; padding: 272px 0 110px; margin-top: -188px;}
 #news>.whitespace {top: 0; left: 0; width: 100%; height: 75px; transform: scale(-1);}
 #news-overlay {position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-color: #fff; opacity: 0.7;}
-#news .container {position: relative; width: 1500px; z-index: 1;}
+#news .container {position: relative; width: 1500px; max-width: calc(100% - 60px); z-index: 1;}
 #news h2 {font-family: 'Montserrat'; font-size: 32px; line-height: 42px; letter-spacing: 0.1em; font-weight: 800; text-transform: uppercase; color :#fff; text-shadow: 0px 0px 12.22px rgba(0, 0, 0, 0.27);}
-#news a.btn {font-family: 'Montserrat'; font-size: 12px; letter-spacing: 0.1em; margin-top: 40px; padding: 0; width: 190px; height: 38px; line-height: 38px; background-color: #357e82; border-radius: 25px;}
+#news a.btn {font-family: 'Montserrat'; font-size: 12px; letter-spacing: 0.1em; margin-top: 17px; padding: 0; width: 190px; height: 38px; line-height: 38px; background-color: #357e82; border-radius: 25px;}
 
-a.news-link {display: block; text-decoration: none; background-color: #fff;}
+#news-links .owl-prev,
+#news-links .owl-next {position: absolute; top: 50%; left: -30px; transform: translateY(-50%); font-size:36px; color:#66202a;}
+#news-links .owl-next {left: unset; right: -30px;}
+#news-links .owl-height {height: 350px!important}
+a.news-link {display: block; text-decoration: none; background-color: #fff; box-shadow: 0px 1px 16px 0px rgba(0, 0, 0, 0.1); border-radius: 6px;}
 .news-link-content {position: relative; top: -23px;}
-.news-link-img {position: relative; width: 100%; height: 223px;}
+.news-link-img {position: relative; width: 100%; height: 223px; border-radius: 6px 6px 0 0;}
 .news-link-img .whitespace {bottom: 0; left: 0; width: 100%; height: 23px;}
 .news-link span {display: inline-block; font-family: 'Montserrat'; font-size: 12px; line-height: 30px; width: 150px; height: 30px; letter-spacing: 0.1em; text-transform: uppercase; color :#fff; background-color: #357e82; border-radius: 25px;}
 .news-link h3 {font-size: 18px; line-height: 28px; font-weight: 700; text-transform: capitalize; color: #4b4b4b; margin: 18px 0 0; padding: 0 50px;}
@@ -391,6 +396,15 @@ footer .container {width: 1200px;}
 
 }
 
+@media only screen and (max-width:1280px) {
+
+	/*--------------- #we-are ---------------*/
+	#we-are .img-container div:nth-child(3) {width: 67.4%; padding-bottom: 47.4%; top: 190px; right: 240px;}
+
+	/*--------------- #news ---------------*/
+	.news-link h3 {padding: 0 25px;}
+}
+
 @media only screen and (max-width:991px) {
 
 	/* rz form tables - without page scope this targets editforms and makes
@@ -399,7 +413,7 @@ footer .container {width: 1200px;}
 	#freeform #formwizziwmorf tr,#freeform #formwizziwmorf tr td{display:block!important}
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
-	.floating-share-btn{top:unset;bottom:55px;padding:10.5px;font-size:11px}
+	.floating-share-btn{top:unset;bottom:60px;padding:10.5px;font-size:11px}
 
 
 	/*--------------- #nav ---------------*/
@@ -435,8 +449,22 @@ footer .container {width: 1200px;}
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+
 	/*--------------- #slider ---------------*/
 	#slider .container {width: unset; left: unset;}
+
+
+	/*--------------- #we-are ---------------*/
+	#content {margin-top: -60px;}
+	#we-are {padding: 0;}
+	#we-are-info {width: 100%;}
+	#we-are .img-container {position: relative; width: 100%; height: 700px;}
+	#we-are .img-container div:nth-child(1) {width: 64%; padding-bottom: 38.5%; top: 50%; right: 50%; transform: translate(50%, -70%); z-index: 2}
+	#we-are .img-container div:nth-child(2) {width: 37.2%; padding-bottom: 55.2%; top: 50%; right: 50%; transform: translate(120%, -40%); z-index: 3}
+	#we-are .img-container div:nth-child(3) {width: 56.2%; padding-bottom: 35.2%; top: 50%; right: 50%; transform: translate(28%, 8%); z-index:1}
+
+	/*--------------- footer ---------------*/
+	footer {padding: 20px 0;}
 
 }
 
@@ -455,6 +483,23 @@ footer .container {width: 1200px;}
 	#slider h1 {font-size: 40px; line-height: 48px;}
 	#slider h1 span {font-size: 22px; line-height: 22px;}
 
+	/*--------------- #we-are ---------------*/
+	#we-are .img-container {height: 450px;}
+	#we-are-info h2 {font-size: 28px; line-height: 36px;}
+
+	/*--------------- #events ---------------*/
+	#events h2 {font-size: 28px; line-height: 36px;}
+	#events a.btn {font-size: 11px; width: 180px; height: 34px; line-height: 34px;}
+
+	/*--------------- #news ---------------*/
+	#news {padding: 230px 0 50px;}
+	#news h2 {font-size: 28px; line-height: 36px;}
+	#news a.btn {font-size: 11px; width: 180px; height: 34px; line-height: 34px;}
+
+	/*--------------- footer ---------------*/
+	#contact-info,
+	#revize {float: none;margin: 5px 0;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -472,6 +517,28 @@ footer .container {width: 1200px;}
 	#slider h1 {font-size: 30px; line-height: 36px;}
 	#slider h1 span {font-size: 20px; line-height: 20px;}
 
+	/*--------------- #we-are ---------------*/
+	#we-are .img-container {height: 300px;}
+	#we-are-info h2 {font-size: 24px; line-height: 28px;}
+
+	/*--------------- #news ---------------*/
+	.news-link-img {height: 180px;}
+	.news-link h3 {padding: 0 15px;}
+	#news h2 {font-size: 24px; line-height: 28px;}
+	#news a.btn {margin: 0;}
+
+	#news-links .owl-height {height: 320px!important;}
+	.news-link span {font-size: 11px;}
+	.news-link h3 {font-size: 16px; line-height: 24px;}
+
+	/*--------------- #events ---------------*/
+	#events {padding: 40px 0 0}
+	#events h2 {font-size: 24px; line-height: 28px;}
+	#events a.btn {font-size: 11px; width: 180px; height: 34px; line-height: 34px;}
+
+	/*--------------- footer ---------------*/
+	#revize>a {display: block; margin: 0;}
+	#revize>a:after {display: none;}
 }
 
 @media print {

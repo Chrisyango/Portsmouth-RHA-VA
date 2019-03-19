@@ -240,7 +240,7 @@
 			<div class="container">
 				<h2>recent news</h2>
 				<div id="news-links" class="owl-carousel">
-					<a class="news-link">
+					<a href="./" class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;">
 							<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover"></div>
 						</div>
@@ -249,7 +249,7 @@
 							<h3>post title adipiscing nibh ullamcorper ligula vulputate</h3>
 						</div><!-- /.news-link-content -->
 					</a><!-- /.news-link -->
-					<a class="news-link">
+					<a href="./" class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news2.jpg') center no-repeat;background-size:cover;">
 							<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover"></div>
 						</div>
@@ -258,7 +258,7 @@
 							<h3>pharetra consectetur commodo condimentum ullamcorper</h3>
 						</div><!-- /.news-link-content -->
 					</a><!-- /.news-link -->
-					<a class="news-link">
+					<a href="./" class="news-link">
 						<div class="news-link-img" style="background:url('./_assets_/images/news3.jpg') center no-repeat;background-size:cover;">
 							<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover"></div>
 						</div>
