@@ -46,7 +46,7 @@
 		</a><!-- /.logo -->
 
 		<div id="toggles" class="hidden-lg hidden-md">
-			<div tabindex="0" id="search-toggle" class="fa fa-search"></div>
+			<div tabindex="0" id="search-toggle-mobile" class="fa fa-search"></div>
 			<div tabindex="0" id="nav-toggle" class="fa fa-bars"></div>	
 		</div><!-- /#toggles -->
 
@@ -162,7 +162,7 @@
 			<div id="search">
 				<form class="search-form" method="get" action="search.php">
 					<label class="fa fa-search" for="search-input"></label>
-					<input name="q" class="form-control search-input" placeholder="SEARCH HERE" type="search" id="search-input">
+					<input name="q" class="form-control search-input" placeholder="Enter keywords..." type="search" id="search-input">
 					<button><i class="fa fa-search"></i></button>
 				</form><!-- /.search-form -->
 			</div><!-- /#search -->
@@ -170,7 +170,7 @@
 	</div><!-- /.container -->
 </header><!-- /.clearfix -->
 
-<section id="slider" style="display:none;">
+<section id="slider">
 	<ul class="bxslider">
 		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
@@ -178,6 +178,7 @@
 	<div class="container">
 		<h1><span>making our city</span>more inviting than ever</h1>
 	</div><!-- /.container -->
+	<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover;"></div>
 </section><!-- /#slider -->
 
 <main id="main">

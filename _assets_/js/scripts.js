@@ -54,6 +54,7 @@
 
 	// Search Toggle
 	$('#search-toggle').on('click',function(e){
+		e.preventDefault();
 		$('#search').stop().slideToggle(200);
 		$(this).toggleClass('fa-search fa-close');
 	});
