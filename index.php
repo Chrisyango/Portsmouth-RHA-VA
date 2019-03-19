@@ -277,7 +277,7 @@
 <footer>
 	<div class="container">
 		<section id="contact-info">
-			<span>&copy; 2019 Portsmouth RHA 146</span>
+			<span>&copy; 2019 Portsmouth RHA</span>
 			<a href="./">contact us</a>
 		</section><!-- /#contact-info -->
 

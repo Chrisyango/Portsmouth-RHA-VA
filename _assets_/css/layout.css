@@ -277,6 +277,20 @@ a.news-link {display: block; text-decoration: none; background-color: #fff;}
 .news-link h3 {font-size: 18px; line-height: 28px; font-weight: 700; text-transform: capitalize; color: #4b4b4b; margin: 18px 0 0; padding: 0 50px;}
 
 
+/*--------------- footer ---------------*/
+footer {background-color: #337b7e; color: #fff; font-size: 13px; padding: 40px 0;}
+footer .container {width: 1200px;}
+
+#contact-info {float:left;}
+#contact-info a {position: relative; font-weight: 700; color: #fff; text-transform: capitalize; margin-left: 20px;}
+#contact-info a:after {content: ''; position: absolute; left: -13px; top: 3px; bottom: 0; width: 2px; background-color: #fff;}
+
+#revize {float: right;}
+#revize a {color: #fff; font-weight: 700;}
+#revize a span {font-family: 'Roboto';}
+#revize>a {position: relative; text-transform: capitalize; margin-left: 19px;}
+#revize>a:after {content: ''; position: absolute; left: -12px; top: 3px; bottom: 0; width: 2px; background-color: #fff;}
+
 /* -----------------------------------------
 
 #inner
