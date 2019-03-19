@@ -214,7 +214,7 @@ nav ul {margin: 0; padding: 0; font-size: 0;}
 #nav>li {display: inline-block;}
 #nav li {margin: 0;}
 #nav li a {display: block; font-size: 16px; line-height: 24px; font-weight: 700; text-transform: uppercase; text-decoration: none; color: #4b4b4b; padding: 30px 0 31px;}
-/* #nav ul {display: none;} */
+#nav ul {display: none;}
 
 #search {display: none; position: absolute; top: calc(100% + 15px); right: 0; z-index: 51; width: 400px;}
 #search label {display: none;}
@@ -397,7 +397,7 @@ footer .container {width: 1200px;}
 	#nav li:hover ul {display: inline-block;}
 	#nav>li>a{position: relative;}
 	#nav>li:hover>a.mega:after{content:'';position:absolute;bottom:0px;left:0;background-color:#45a5aa;height:5px;width:100%}
-	#nav>li>ul {position: absolute; top: 100%; right: 15px; z-index: 51; display: none; column-count: 4; column-gap: 64px; background-color: #571d24; text-align: left; padding: 24px 30px 11px; border-radius: 0 0 6px 6px;}
+	#nav>li>ul {position: absolute; top: 100%; right: 15px; z-index: 51;-moz-column-count: 4;-moz-column-gap: 64px;-webkit-column-count: 4;-webkit-column-gap: 64px;column-count: 4;column-gap: 64px; background-color: #571d24; text-align: left; padding: 24px 30px 11px; border-radius: 0 0 6px 6px;}
 	#nav>li>ul>li {display: block;}
 	#nav>li>ul>li>a {font-family: 'Montserrat'; font-weight: 700; font-size: 16px; line-height: 26px; width: 100%; margin-bottom: 1px;}
 	#nav ul li a {color: #fff; padding: 0; margin: 0;}
