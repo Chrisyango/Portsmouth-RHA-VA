@@ -221,12 +221,14 @@ nav ul {margin: 0; padding: 0; font-size: 0;}
 #search input {padding: 10px 65px 10px 15px;}
 #search button {position: absolute; right: 0; top: 0; padding: 0; background-color: #6b222c; width: 50px; height: 34px;}
 
+
 /*--------------- #slider ---------------*/
 #slider {position: relative; height: 650px;}
 #slider .whitespace {z-index: 50; height: 75px;}
 #slider .container {position: absolute; top: 50%; left:115px; transform: translateY(-71%); z-index: 50;}
 #slider h1 {color: #fff; font-family: 'Montserrat'; font-weight: 800; font-size: 60px; line-height: 68px; letter-spacing: 0.2em; text-transform: uppercase; margin: 0; width: 670px;}
 #slider h1 span {color: #98a898; font-weight: 300; font-size: 28px; line-height: 45px; letter-spacing: 0.3em; display: block;}
+
 
 /*--------------- #quick-links ---------------*/
 #quick-links {position: relative; z-index: 51; top: -135px;}
@@ -235,6 +237,21 @@ a.quick-link {position: relative; display: block; font-family: 'Montserrat'; fon
 .quick-link-overlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #245759; opacity: 0.7; border-radius: 6px;}
 a.quick-link span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, 45%); z-index: 1;display: inline-block; padding: 0 30px; }
 .quick-link-img {position: relative; display: block; z-index: 1; width: 60px; height: 48px; margin: 0 auto 18px;}
+
+
+/*--------------- #we-are ---------------*/
+#we-are .container {position: relative; width: 1240px;}
+#we-are {margin-top: 81px;}
+#we-are-info {position: relative; border-top: 3px solid #67202b; width: 53.7%; padding: 11px 39px 34px; box-shadow: 0px 1px 21px 0px rgba(0, 0, 0, 0.05); background-color: #fff; z-index: 10;}
+#we-are-info h2 {position: relative; font-family: 'Montserrat'; font-size: 32px; line-height: 42px; letter-spacing: 0.1em; font-weight: 800; text-transform: uppercase; color: #98a898; margin-bottom: 73px;}
+#we-are-info h2:after {content: ''; position: absolute; bottom: -40px; left: 1px; width: 70px; height: 10px; background-color: black;}
+#we-are-info p {font-size: 16px; line-height: 26px; color:#4b4b4b; margin: 0;}
+
+#we-are .img-container {position: absolute; top: 0; right: 0; width: 53.5%;}
+#we-are .img-container div {position: absolute; box-shadow: 0 0 10px 1px rgba(0,0,0,.3);}
+#we-are .img-container div:nth-child(1) {width: 85.7%; padding-bottom: 57%; top: -106px; right: 76px;z-index: 2}
+#we-are .img-container div:nth-child(2) {width: 48.4%; padding-bottom: 72.5%; top: -28px; right: 15px;z-index: 3}
+#we-are .img-container div:nth-child(3) {width: 60.4%; padding-bottom: 32.4%; top: 272px; right: 315px;z-index:1}
 
 
 /* -----------------------------------------
