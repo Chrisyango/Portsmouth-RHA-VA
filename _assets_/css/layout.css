@@ -205,11 +205,12 @@ header .container{position:relative}
 #top-nav ul{margin:0;padding:0}
 #top-nav li{position:relative;display:inline-block;margin:0}
 #top-nav li:not(:last-of-type):after{content:'';position:absolute;top:7px;right:-18px;bottom:4px;width:1px;background-color:#fff}
+#top-nav li:nth-child(2):after{top:6px;bottom:5px}
 #top-nav li a{font-size:12px;line-height:24px;color:#fff;text-transform:capitalize;text-decoration:none;margin-right:0;margin-left:35px}
 .goog-te-gadget img{display:none}
 .goog-te-gadget-simple{background-color:transparent!important;border:none!important;padding:0!important}
 .goog-te-menu-value span{display:none}
-.goog-te-menu-value span:first-of-type{display:inline-block;font-family:'Lora';font-weight:400}
+.goog-te-menu-value span:first-of-type{display:inline-block;font-family:'Lora';font-weight:400;position:relative;top:-1px}
 
 nav ul{margin:0;padding:0;font-size:0}
 #nav>li{display:inline-block}
