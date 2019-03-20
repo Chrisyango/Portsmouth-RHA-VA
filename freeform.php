@@ -182,7 +182,7 @@
 			</p>
 		</section><!-- /#breadcrumbs -->
 	</div><!-- /.container -->
-	<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover;"></div>
+	<img class="whitespace" src="./_assets_/images/whitespace.png" alt="Whitespace">
 </section><!-- /#slider -->
 
 <main id="main">

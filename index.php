@@ -178,7 +178,7 @@
 	<div class="container">
 		<h1><span>making our city</span>more inviting than ever</h1>
 	</div><!-- /.container -->
-	<div class="whitespace" style="background:url('./_assets_/images/whitespace.png') center no-repeat;background-size:cover;"></div>
+	<img class="whitespace" src="./_assets_/images/whitespace.png" alt="Whitespace">
 </section><!-- /#slider -->
 
 <main id="main">
