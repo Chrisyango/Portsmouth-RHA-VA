@@ -289,7 +289,18 @@
 			}).focus(); // focus on the content container
 		});
 
-			// Fill sides script
+		// Fill sides script
+		if ($('#side-content').length){
+			$('main').css('position','relative');
+			$('<div id="side-background" class="hidden-sm hidden-xs"></div>').prependTo('main');
+		}
+
+		function sideBackground(){
+			$('#side-background').width($('#side-content').outerWidth());
+		}
+		sideBackground();
+		$window.resize(sideBackground);
+
 		function fillSide(){
 			var windowWidth = $('body').outerWidth();
 			var pixelValue = (windowWidth - $('.container').width()) / 2;
@@ -309,6 +320,8 @@
 					'margin-right': -pixelValue,
 					'padding-right': pixelValue
 			});
+
+			$('#side-background').width($('#side-content').outerWidth());
 		}
 		fillSide();
 		$window.resize(fillSide);

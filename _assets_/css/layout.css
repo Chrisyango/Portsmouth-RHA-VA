@@ -27,8 +27,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{display: block;font-size:28px;line-height: 36px;font-weight:700;color:#9e3242;margin-bottom:30px; text-transform: capitalize;}
+.subheader{display: block;font-size:22px; line-height: 26px;font-weight:700;color:#9e3242;margin: 21px 0 12px; text-transform: capitalize;}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -304,7 +304,9 @@ footer .container {width: 1200px;}
 #inner
 
 -----------------------------------------*/
-#freeform main>.container {width: 1500px;}
+#freeform main>.container {width: 1375px; padding-bottom: 20px;}
+#freeform #side-background {position: absolute; top: 0; left: 0; bottom: 0; background-color: #e5eeef;}
+#freeform #side-background:after {content: ''; position: absolute; top: -23px; left: 0; border-bottom: 0 solid #e5eeef; border-left: 0px solid transparent; border-top: 23px solid transparent; border-right: 485px solid #e5eeef; z-index: 51;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 350px;}
@@ -319,18 +321,24 @@ footer .container {width: 1200px;}
 #breadcrumbs i{font-size:13px;margin:0 4px}
 
 /*--------------- #flyout ---------------*/
-#flyout{margin:0;padding:0}
+#side-content {position: relative; margin-right: 73px; padding-top: 30px; background-color: #e5eeef;}
+#flyout{margin:17px 0 0;padding:0;}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
+#flyout span{font-size: 13px; line-height: 36px; color: #4b4b4b; text-transform: capitalize; text-decoration:none;padding:0;display:block;}
 #flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
+#flyout-header {font-size: 22px; line-height: 26px; font-weight: 700; text-transform: capitalize; color: #45a5aa;}
 
 
 /*--------------- #entry ---------------*/
-
+#entry {padding-top: 28px; margin: 0 30px 0 56px;}
+#post {font-size: 16px; line-height: 26px; color: #4b4b4b;}
+#post p {margin-bottom: 19px;}
+#post ul {margin: 0 0 17px 35px; padding: 0;}
+#post ul li {font-weight: 700; margin-bottom: 9px;}
 
 
 /* -----------------------------------------

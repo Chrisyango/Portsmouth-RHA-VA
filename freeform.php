@@ -189,7 +189,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<aside id="side-content">
+				<aside id="side-content" class="fillLeft withPadding">
 					<div id="flyout-wrap">
 						<span id="flyout-header">related pages</span>
 						<ul id="flyout">
@@ -221,22 +221,22 @@
 				<article id="entry">
 					<div id="post">
 						<p>
-							Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.
 						</p>
 						<img src="./_assets_/images/inner-img.jpg" alt="Asheborough Femal Academy">
+						<span class="subheader">header two</span>
 						<p>
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</p>
 						<ul>
-							<li>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</li>
-							<li>Nullam id dolor id nibh ultricies vehicula ut id elit. Praesent commodo cursus magna, vel sceleris.</li>
+							<li>Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</li>
+							<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
 						</ul>
-						<span class="subheader">subheading (h2)</span>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+							Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 						</p>
 						<p>
-							Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Maecenas faucibus mollis interdum. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer 
+							Donec sed odio dui. Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						</p>
 					</div><!-- /#post -->
 				</article><!-- /#entry -->
