@@ -292,14 +292,8 @@
 		// Fill sides script
 		if ($('#side-content').length){
 			$('main').css('position','relative');
-			$('<div id="side-background" class="hidden-sm hidden-xs"></div>').prependTo('main');
+			$('<div id="side-background" class="hidden-sm hidden-xs"><div id="colored-space"></div></div>').prependTo('main');
 		}
-
-		function sideBackground(){
-			$('#side-background').width($('#side-content').outerWidth());
-		}
-		sideBackground();
-		$window.resize(sideBackground);
 
 		function fillSide(){
 			var windowWidth = $('body').outerWidth();
@@ -321,7 +315,13 @@
 					'padding-right': pixelValue
 			});
 
-			$('#side-background').width($('#side-content').outerWidth());
+			let sideContentWidth = $('#side-content').outerWidth();
+			$('#side-background').width(sideContentWidth);
+			$('#colored-space').css({
+				'border-right': sideContentWidth + 'px solid #e5eeef',
+				'border-top': sideContentWidth * 0.0464 + 'px solid transparent',
+				'top': '-' + sideContentWidth * 0.0464 + 'px'
+			});
 		}
 		fillSide();
 		$window.resize(fillSide);

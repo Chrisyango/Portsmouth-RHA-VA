@@ -307,7 +307,7 @@ footer .container {width: 1200px;}
 #freeform main>.container {width: 1375px; padding-bottom: 20px;}
 #freeform.fullwidth #entry {margin: 0;}
 #freeform #side-background {position: absolute; top: 0; left: 0; bottom: 0; background-color: #e5eeef;}
-#freeform #side-background:after {content: ''; position: absolute; top: -23px; right: 0; border-bottom: 0 solid #e5eeef; border-left: 0px solid transparent; border-top: 23px solid transparent; border-right: 485px solid #e5eeef; z-index: 51;}
+#freeform #colored-space {content: ''; position: absolute; right: 0; border-bottom: 0 solid #e5eeef; border-left: 0px solid transparent; border-top: 23px solid transparent; z-index: 51;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 350px;}
