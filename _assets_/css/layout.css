@@ -327,9 +327,7 @@ footer .container {width: 1200px;}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size: 13px; line-height: 36px; color: #4b4b4b; text-transform: capitalize; text-decoration:none;padding:0;display:block;}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#7cbabe;z-index: 51;}
 #flyout li:hover > ul{display:block}
 #flyout-header {font-size: 22px; line-height: 26px; font-weight: 700; text-transform: capitalize; color: #45a5aa;}
 
@@ -413,6 +411,9 @@ footer .container {width: 1200px;}
 	#nav .focused .toggle,#nav .focused .toggle2,#flyout .focused .toggle{display:inline-block;margin-left:8px}
 	#flyout .focused .toggle,#nav .focused .toggle2{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 	#flyout,#nav{display:block!important}
+
+	#flyout ul a,
+	#flyout ul span{font-size:13px;padding:5px 10px;width:180px;color:#fff;border-bottom: 1px solid rgba(0,0,0,.2);}
 
 
 	/*--------------- #nav ---------------*/
