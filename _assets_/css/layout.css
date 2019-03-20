@@ -626,10 +626,14 @@ footer .container{width:1200px}
 }
 
 @media print{
+	header,
+	footer,
+	#slider,
+	#breadcrumbs,
+	.floating-share-btn,
 	.nav-wrap,
 	.sidebar,
 	#flyout-wrap,
-	.breadcrumbs
 	.e-notify{display:none!important}
 	a[href]:after{content:none!important}
 }
