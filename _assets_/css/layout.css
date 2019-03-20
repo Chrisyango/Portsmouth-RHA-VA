@@ -194,6 +194,7 @@ body{overflow-x:hidden}
 
 
 /*--------------- #nav ---------------*/
+header{position:relative;z-index:100}
 header .container{position:relative}
 #nav-toggle,
 .toggle,
