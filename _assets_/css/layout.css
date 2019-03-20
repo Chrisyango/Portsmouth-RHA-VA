@@ -305,8 +305,9 @@ footer .container {width: 1200px;}
 
 -----------------------------------------*/
 #freeform main>.container {width: 1375px; padding-bottom: 20px;}
+#freeform.fullwidth #entry {margin: 0;}
 #freeform #side-background {position: absolute; top: 0; left: 0; bottom: 0; background-color: #e5eeef;}
-#freeform #side-background:after {content: ''; position: absolute; top: -23px; left: 0; border-bottom: 0 solid #e5eeef; border-left: 0px solid transparent; border-top: 23px solid transparent; border-right: 485px solid #e5eeef; z-index: 51;}
+#freeform #side-background:after {content: ''; position: absolute; top: -23px; right: 0; border-bottom: 0 solid #e5eeef; border-left: 0px solid transparent; border-top: 23px solid transparent; border-right: 485px solid #e5eeef; z-index: 51;}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 350px;}
@@ -469,19 +470,22 @@ footer .container {width: 1200px;}
 	#nav ul a,
 	#nav ul span{width:100%}
 	#nav ul ul{left:0}
-	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;text-align:center;font-size:20px}
 	#nav li li:hover > a{background:none;color:#fff}
 	#search {width: calc(100% - 30px); right: 15px;}
+	.toggle,
+	.toggle2 {position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:45px;width:45px;line-height:45px;text-align:center;font-size:20px}
 
+	#side-content {margin: 15px 0 0!important;padding:15px;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
+	#flyout-header {display: none;}
+	#flyout-toggle {font-size: 16px;}
 
 
 	/*--------------- #slider ---------------*/
@@ -500,6 +504,11 @@ footer .container {width: 1200px;}
 
 	/*--------------- footer ---------------*/
 	footer {padding: 20px 0;}
+
+	
+	/*--------------- inner ---------------*/
+	#freeform #slider .container {width: 100%;}
+	#entry {margin: 0;}
 
 }
 
@@ -540,6 +549,13 @@ footer .container {width: 1200px;}
 	#contact-info,
 	#revize {float: none;margin: 5px 0;}
 
+
+	/*--------------- inner ---------------*/
+	#freeform #slider h1 {font-size: 28px; line-height: 48px;}
+	#breadcrumbs {font-size: 12px;}
+	#post {font-size: 14px;}
+	.header {font-size: 26px;}
+	.subheader {font-size: 20px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -555,6 +571,7 @@ footer .container {width: 1200px;}
 
 
 	/*--------------- #slider ---------------*/
+	#freeform #slider h1,
 	#slider h1 {font-size: 30px; line-height: 36px;}
 	#slider h1 span {font-size: 20px; line-height: 20px;}
 
@@ -583,6 +600,10 @@ footer .container {width: 1200px;}
 	/*--------------- footer ---------------*/
 	#revize>a {display: block; margin: 0;}
 	#revize>a:after {display: none;}
+
+
+	/*--------------- inner ---------------*/
+	#breadcrumbs {font-size: 11px;}
 
 }
 

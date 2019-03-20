@@ -164,7 +164,7 @@
 	}
 
 	$("#flyout-toggle").on("click", function(){
-		flyout.slideToggle();
+		flyout.stop().slideToggle();
 		$(this).toggleClass("active");
 	});
 
