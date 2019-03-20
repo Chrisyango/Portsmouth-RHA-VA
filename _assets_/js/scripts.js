@@ -1,6 +1,7 @@
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: Portsmouth RHA, VA
+	Front-end Developer: Chris Yang
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Author URI: http://www.revize.com/
 	Date: March 19, 2019
